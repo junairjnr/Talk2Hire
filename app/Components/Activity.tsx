@@ -63,7 +63,7 @@ import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import Image from "next/image";
 import devImage from "../Assets/undraw_interview_yz52.svg";
-import { MapPin, Database, Server, BrainCircuit, Atom } from "lucide-react"; // Lucide icons for stack
+// import {  Database, Server, BrainCircuit, Atom } from "lucide-react"; // Lucide icons for stack
 
 export default function UserActivity() {
   const stats = [
@@ -72,23 +72,23 @@ export default function UserActivity() {
     { label: "AI Sessions", end: 5400 },
   ];
 
-  const techStack = [
-    { name: "React", icon: <Atom size={28} className="text-blue-500" /> },
-    { name: "Next.js", icon: <span className="text-xl font-semibold">N</span> },
-    {
-      name: "Tailwind",
-      icon: <span className="text-cyan-400 font-bold">TW</span>,
-    },
-    { name: "Node.js", icon: <Server size={26} className="text-green-600" /> },
-    {
-      name: "MongoDB",
-      icon: <Database size={26} className="text-emerald-600" />,
-    },
-    {
-      name: "OpenAI",
-      icon: <BrainCircuit size={26} className="text-indigo-500" />,
-    },
-  ];
+  // const techStack = [
+  //   { name: "React", icon: <Atom size={28} className="text-blue-500" /> },
+  //   { name: "Next.js", icon: <span className="text-xl font-semibold">N</span> },
+  //   {
+  //     name: "Tailwind",
+  //     icon: <span className="text-cyan-400 font-bold">TW</span>,
+  //   },
+  //   { name: "Node.js", icon: <Server size={26} className="text-green-600" /> },
+  //   {
+  //     name: "MongoDB",
+  //     icon: <Database size={26} className="text-emerald-600" />,
+  //   },
+  //   {
+  //     name: "OpenAI",
+  //     icon: <BrainCircuit size={26} className="text-indigo-500" />,
+  //   },
+  // ];
 
   return (
     <section id="activity" className="py-20 bg-gray-50 px-4 md:px-8 lg:px-16">

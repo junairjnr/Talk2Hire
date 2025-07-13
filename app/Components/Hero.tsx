@@ -44,7 +44,7 @@
 
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
-import { Suspense, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Hero() {

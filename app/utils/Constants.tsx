@@ -1,4 +1,8 @@
-export const Name = (prop: any) => {
+interface NameProps {
+  colored?: boolean;
+}
+
+export const Name = (prop: NameProps) => {
   const { colored = false } = prop;
 
   return (

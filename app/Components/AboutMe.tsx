@@ -87,10 +87,10 @@ export default function AboutMe() {
             applications.
           </p>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-            With over 3+ years of hands-on experience in React and Next.js, I've
+            With over 3+ years of hands-on experience in React and Next.js, I have
             recently dived into the backend world with Node.js, Express, and
             MongoDB (Mongoose). Talk2Hire is a passion project aimed at helping
-            job seekers level up their interview skills using AI — and I'm
+            job seekers level up their interview skills using AI — and I am
             excited to keep pushing it forward.
           </p>
         </div>
